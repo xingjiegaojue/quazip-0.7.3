@@ -6,4 +6,5 @@ CONFIG += ordered
 SUBDIRS = \
     zlib \
     quazip \
-    qztest
+    qztest \
+    example
