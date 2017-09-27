@@ -1,3 +1,9 @@
-TEMPLATE=subdirs
-SUBDIRS = quazip qztest
-qztest.depends = quazip
+TEMPLATE = subdirs
+
+## build order
+CONFIG += ordered
+
+SUBDIRS = \
+    zlib \
+    quazip \
+    qztest

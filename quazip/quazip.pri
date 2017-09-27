@@ -1,5 +1,4 @@
 INCLUDEPATH += $$PWD
-DEPENDPATH += $$PWD
 HEADERS += \
         $$PWD/crypt.h \
         $$PWD/ioapi.h \
@@ -19,15 +18,15 @@ HEADERS += \
         $$PWD/zip.h
 
 SOURCES += $$PWD/qioapi.cpp \
-           $$PWD/JlCompress.cpp \
-           $$PWD/quaadler32.cpp \
-           $$PWD/quacrc32.cpp \
-           $$PWD/quagzipfile.cpp \
-           $$PWD/quaziodevice.cpp \
-           $$PWD/quazip.cpp \
-           $$PWD/quazipdir.cpp \
-           $$PWD/quazipfile.cpp \
-           $$PWD/quazipfileinfo.cpp \
-           $$PWD/quazipnewinfo.cpp \
-           $$PWD/unzip.c \
-           $$PWD/zip.c
+        $$PWD/JlCompress.cpp \
+        $$PWD/quaadler32.cpp \
+        $$PWD/quacrc32.cpp \
+        $$PWD/quagzipfile.cpp \
+        $$PWD/quaziodevice.cpp \
+        $$PWD/quazip.cpp \
+        $$PWD/quazipdir.cpp \
+        $$PWD/quazipfile.cpp \
+        $$PWD/quazipfileinfo.cpp \
+        $$PWD/quazipnewinfo.cpp \
+        $$PWD/unzip.c \
+        $$PWD/zip.c
